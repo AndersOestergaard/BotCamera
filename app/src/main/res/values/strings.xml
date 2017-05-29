@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BotCamera</string>
+    <string name="right" >Right</string>
+    <string name="left" >Left</string>
+    <string name="forward" >Forwards</string>
+    <string name="backward" >Backwards</string>
+    <string name="stop" >Stop</string>
+    <string name="connect" >Connect</string>
+</resources>

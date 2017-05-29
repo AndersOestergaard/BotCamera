@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72A0C1"
+    tools:context=".BotControl" >
+
+    <ImageButton
+        android:id="@+id/backward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/backward"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/forward" />
+
+    <ImageButton
+        android:id="@+id/forward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/forward"
+        android:layout_alignTop="@+id/backward"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp" />
+
+    <com.anders.botcamera.RotationControl
+        android:id="@+id/rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp" />
+
+</RelativeLayout>
